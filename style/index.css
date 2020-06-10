@@ -1,90 +1,98 @@
-html, body {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
 *{
-	margin: 0;
-	padding: 0;
+    padding: 0;
+    margin: 0;
 }
 
-.main-header {
-	background: 
+.head{
+    background: 
     linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0,0,0,0.5)
         ),
-    url("../images/Rectangle 12.jpg");
+    url("../images/Rectangle\ 12.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
     /*width: 100%;*/
 }
 
-body {
-  background: ;
+.head .logo{
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
-.header-menu .header-menu_link {
-	list-style-type: none;
-	/*text-decoration: none;*/
-	/*padding: 50;*/
-	display: flex;
-	float: right;
-	/*margin-right: 50px;*/
-	margin: 50px;
+.head .nav{
+    padding-top: 10px;
+    padding-right: 20px;
 }
 
-.menu-link a {
-	text-decoration: none;
-	color: white;
-	margin-right: 50px;
-	position: relative;
-	top: 10px;
-	font-weight: bold;
+.head .nav .menu{
+border: 1px solid #F8F8F8;
+width: 40px;
+height: 30px;
+display: block;
+cursor: pointer;
+margin-right: 10px;
+float: right;
 }
 
-.menu-link button {
-	background-color: #DB9200;
-	color: #fff;
-	border-color: #DB9200;
-	width: 100px;
-	height: 40px;
-	position: relative;
-	bottom: : 70px;
+.head .nav .menu .dash{
+width: 30px;
+height: 3px;
+margin: 5px auto;
+background-color: #F8F8F8;
 }
 
-.menu-link button:hover {
-	font-weight: bold;
-	background-color: #db9200ad;
+.head .nav .content{
+overflow: hidden;
+position: relative;
+left: 55px;
+top: 30px;
+display: none;
 }
 
-
-.logo-head {
-	margin-left: 20px;
-	list-style: none;
-	position: relative;
-	top: 35px;
+.head .nav .content a{
+color: black;
+padding: 18px 20px;
+position: relative;
+display: block;
+text-align: right;
+font-family: helvetica;
+font-size: 12px;
+color: #fff;
+transition: all .5s ease;
+text-decoration: none;
 }
 
-.logo-head .up{
-	color: #DB9200;
-	font-family: cardo;
-	font-size: 30px;
-	font-weight: bold;
+.head .nav .content a:hover{
+text-decoration: underline;
+text-decoration-color: #DB9200;
+transition: all .5s ease;
 }
 
-.logo-head .down {
-	color: #fff;
-	font-weight: normal;
-	font-size: 25px;
-	font-family: 'Dancing Script', cursive;
+.head .nav .content a #book{
+width: 100px;
+height: 20px;
+background-color: #DB9200;
+padding-right: 20px;
+padding-top:5px;
+margin-bottom: 40px;
+border-radius: 2px;
+color: #fff;
+float: right;
 }
-
 .img-hotels {
 	float: right;
-	margin-right: 30px;
+	margin-right: 3px;
 	position: relative;
-	top: 140px;
+	top: 150px;
 }
 
 .main-article h2{
@@ -92,7 +100,9 @@ body {
 	color: #fff;
 	font-family: Source Sans Pro;
 	font-weight: bold; 
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+    width: 260px;
+    font-size: 25px;
 }
 
 span {
@@ -100,10 +110,13 @@ span {
 }
 
 .article-par {
+    width: 270px;
 	color: #fff;
 	font-family: Source Sans Pro;
 	margin-bottom: 50px;
-	font-size: 20px;
+    font-size: 20px;
+    text-align: justify;
+    
 }
 
 .line {
@@ -128,7 +141,8 @@ span {
     font-size: 16px;
     text-align: center;
     box-shadow: 0 12px 16px 0
-    rgba(0,0,0,0.20)
+    rgba(196, 143, 143, 0.2);
+    cursor: pointer;
 }
 
 .button2:hover {
@@ -141,6 +155,183 @@ span {
 	top: 250px;
 	margin-left: 20px;
 }
+
+
+
+
+.footer{
+width: 100%;
+background-color: #0C242E;
+padding-bottom: 20px;
+}
+
+.footer .first, .second, .third{
+margin-left: 20px;
+}
+
+
+.footer .first p{
+font-family: helvetica;
+color: #fff;
+font-size: 12px;
+margin-left: 65px;
+margin-top: -30px
+}
+
+.footer .first img{
+margin-top: 40px;
+margin-left: 25px;
+}
+
+.footer .second .logo{
+background-image: url(../images/logo.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100px;
+height: 70px;
+margin: 30px 0 0 60px;
+}
+
+.footer .second img{
+margin: 0 20px 0 20px;
+}
+
+
+.footer .third h5{
+clear: both;
+font-family: helvetica;
+font-size: 15px;
+font-weight: bold;
+color: #DB9200;
+margin: 30px 0 0 150px;
+}
+
+.footer .third ul{
+list-style-type: none;
+font-family: helvetica;
+color: #fff;
+font-size: 12px;
+margin-left: 150px;
+margin-bottom: 50px;
+}
+
+.footer .third ul li{
+margin: 10px 0 10px 0;
+color: #fff;
+font-family: helvetica;
+font-size: 12px;
+}
+
+.footer .third ul a{
+text-decoration: none;
+}
+
+.footer .bottom{
+color: #fff;
+font-family: helvetica;
+font-size: 12px;
+text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 700px)
+{
+*{
+    max-width: 1150px;
+}
+.head .logo{
+    width: 100px;
+    height: 60px;
+}
+
+.head .nav .content a{
+    font-size: 15px;
+}
+
+.head .nav .content a #book{
+    width: 110px;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1150px)
+{
+*{
+    max-width: 1500px;
+}
+
+.head .nav{
+    margin-left: 30px;
+}
+.head .nav .menu{
+    display: none;
+}
+
+.head .nav .content{
+    display: block;
+    top: 0;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.head .nav .content a{
+    display: inline-block;
+}
+
+.head .nav .content a #book{
+    float: none;
+}
+
+.text2, .text3{
+   float: left;
+}
+
+.text2 .line, .text2 .goldline{
+   display: block;
+}
+
+.text3 .line, .text3 .goldline{
+   display: block;
+}
+
+
+.rooms{
+   float: right;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.promo{
+   clear: both;
+   padding-top: 30px;
+}
+
+.footer .first, .second, .third{
+       float: left;
+       margin: 0 100px 0 100px;
+}
+
+.footer .bottom{
+    clear: both;
+    padding-top: 50px;
+}
+
+
+
+.footer{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+}
+
 
 
 
@@ -487,6 +678,7 @@ span {
     width: 55px;
     height: 40px;
     background-color: #0c242e;
+    cursor: pointer;
 }
 #arrows #left img{
    transform: rotateY(180deg) translate(-12px, 5px);
@@ -498,6 +690,7 @@ span {
     width: 55px;
     height: 40px;
     background-color: #db9200;
+    cursor: pointer;
 }
 #arrows #right img{
     transform: translate(12px, 5px);

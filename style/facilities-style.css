@@ -35,7 +35,11 @@ nav ul{
     color: #ffffff;
     font-weight: bold;
 }
-
+li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #DB9200;
+    transition: all .5s ease;
+    }
 .btn{
     height: 40px;
     color: #ffffff;

@@ -40,7 +40,11 @@ body{
         color: #fff;
         font-weight: bold;
     }
-
+    .menu a:hover{
+        text-decoration: underline;
+        text-decoration-color: #DB9200;
+        transition: all .5s ease;
+        }
     .btn{
         height: 40px;
         color: #ffffff;
@@ -104,22 +108,10 @@ button{
 button:focus{
     border:1px solid red;
     }
-footer{
-    padding:10px 20px;
-    background-color:#111;
-    margin:4pc auto 0pc auto;
-    color:#f4f4f4;
-    }
-.name{
-    font-size:20px;
-    font-weight:700;
-  }
-.handles{
-    display:flex;
-    width:50%;
-    justify-content: space-between;
-    margin:1pc auto 5pc 0pc;
-    }
+
+    
+    
+    
 .send1{
     background-color:#eeee00;
     color:#111;
@@ -162,9 +154,172 @@ hr{
     width:45%;
     margin-left:0pc;
     }
+/* Footer */
+footer{
+    height: 500px;
+    background-color: #0c242e;
+}
+#location{
+   display: inline-flex;
+   transform: translate(133px, 80px);
+   color: white;
+}
+#location img{
+   padding: 15px;
+}
+#location p{
+   padding: 10px;
+}
+#mail{
+   display: inline-flex;
+   transform: translate(-170px, 160px);
+   color: white;
+}
+#mail img{
+   padding: 15px;
+}
+#mail p{
+   padding: 10px;
+}
+#phone{
+   display: inline-flex;
+   transform: translate(-460px, 250px);
+   color: white;
+}
+#phone img{
+   padding: 15px;
+}
+#phone p{
+   padding: 10px;
+}
+#logo{
+   font-size: 32px;
+   color: #db9200;
+   text-align: center;
+   margin-top: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo p span{
+   color: white;
+   margin-left: -70px;
+   font-family: 'Dancing Script', cursive;
+}
+#socials{
+   justify-content: center;
+   display: flex;  
+   margin-top: 50px;
+}
+#socials img{
+   margin: 20px;
+}
+/* Quick link */
+#nav{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #db9200;
+   transform: translate(-130px, -205px);
+   text-align: left;
+}
+#nav #ul{
+   text-align: right;
+}
+#nav #ul h2{
+   margin-bottom: 30px;
+}
+#li{
+   list-style: none;
+   text-align: right;
+   margin-bottom: 30px;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+#copyright{
+   color: white;
+   margin-top: -130px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#copyright span{
+   color: #db9200;
+}
 
-
-
+   
+.footer{
+    width: 100%;
+    background-color: #0C242E;
+    padding-bottom: 20px;
+    }
+    
+    .footer .first, .second, .third{
+    margin-left: 20px;
+    }
+    
+    
+    .footer .first p{
+    font-family: helvetica;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 65px;
+    margin-top: -30px
+    }
+    
+    .footer .first img{
+    margin-top: 40px;
+    margin-left: 25px;
+    }
+    
+    .footer .second .logo{
+    background-image: url(images/logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    margin: 30px 0 0 60px;
+    }
+    
+    .footer .second img{
+    margin: 0 20px 0 20px;
+    }
+    
+    
+    .footer .third h5{
+    clear: both;
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    color: #DB9200;
+    margin: 30px 0 0 190px;
+    }
+    
+    .footer .third ul{
+    list-style-type: none;
+    font-family: helvetica;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    }
+    
+    .footer .third ul li{
+    margin: 10px 0 10px 0;
+    color: #fff;
+    font-family: helvetica;
+    font-size: 12px;
+    }
+    
+    .footer .third ul a{
+    text-decoration: none;
+    }
+    
+    .footer .bottom{
+    color: #fff;
+    font-family: helvetica;
+    font-size: 12px;
+    text-align: center;
+    }
+    
 @media(min-width:768px){
 .ham{
     display:none;
@@ -217,3 +372,166 @@ footer{
     width:46%;
     }	
 }
+@media screen and (min-width: 1150px)
+{
+*{
+    max-width: 1500px;
+}
+
+.head .nav{
+    margin-left: 30px;
+}
+.head .nav .menu{
+    display: none;
+}
+
+.head .nav .content{
+    display: block;
+    top: 0;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.head .nav .content a{
+    display: inline-block;
+}
+
+.head .nav .content a #book{
+    float: none;
+}
+
+.text2, .text3{
+   float: left;
+}
+
+.text2 .line, .text2 .goldline{
+   display: block;
+}
+
+.text3 .line, .text3 .goldline{
+   display: block;
+}
+
+
+.rooms{
+   float: right;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.promo{
+   clear: both;
+   padding-top: 30px;
+}
+
+.footer .first, .second, .third{
+       float: left;
+       margin: 0 100px 0 100px;
+}
+
+.footer .bottom{
+    clear: both;
+    padding-top: 50px;
+}
+
+
+
+.footer{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+}
+
+ /* Footer */
+ footer{
+     height: 500px;
+     background-color: #0c242e;
+ }
+#location{
+    display: inline-flex;
+    transform: translate(133px, 80px);
+    color: white;
+}
+#location img{
+    padding: 15px;
+}
+#location p{
+    padding: 10px;
+}
+#mail{
+    display: inline-flex;
+    transform: translate(-170px, 160px);
+    color: white;
+}
+#mail img{
+    padding: 15px;
+}
+#mail p{
+    padding: 10px;
+}
+#phone{
+    display: inline-flex;
+    transform: translate(-460px, 250px);
+    color: white;
+}
+#phone img{
+    padding: 15px;
+}
+#phone p{
+    padding: 10px;
+}
+#logo{
+    font-size: 32px;
+    color: #db9200;
+    text-align: center;
+	margin-top: 40px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo p span{
+    color: white;
+	margin-left: -70px;
+	font-family: 'Dancing Script', cursive;
+}
+#socials{
+    justify-content: center;
+    display: flex;  
+    margin-top: 50px;
+}
+#socials img{
+    margin: 20px;
+}
+/* Quick link */
+#nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #db9200;
+    transform: translate(-130px, -205px);
+    text-align: left;
+}
+#nav #ul{
+    text-align: right;
+}
+#nav #ul h2{
+    margin-bottom: 30px;
+}
+#li{
+    list-style: none;
+    text-align: right;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#copyright{
+    color: white;
+    margin-top: -130px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#copyright span{
+    color: #db9200;
+}
+
+
