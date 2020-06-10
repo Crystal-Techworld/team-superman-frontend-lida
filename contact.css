@@ -28,10 +28,27 @@ body{
     overflow: hidden;
     transition:height .7s ease;
     }
-.drop > div{
+.menu{
     text-align: center;
     padding:20px;
+    list-style: none;
+    display: inline-block;
     }
+
+    .menu a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .btn{
+        height: 40px;
+        color: #ffffff;
+        text-decoration: none;
+        background: #DB9200;
+        padding: 10px 10px
+           }
+
 .book{
     width:max-content;
     margin:auto;

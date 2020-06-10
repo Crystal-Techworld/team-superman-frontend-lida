@@ -26,11 +26,11 @@ body {
 
 .header-menu .header-menu_link {
 	list-style-type: none;
-	text-decoration: none;
-	padding: 50;
+	/*text-decoration: none;*/
+	/*padding: 50;*/
 	display: flex;
 	float: right;
-	margin-right: 50px;
+	/*margin-right: 50px;*/
 	margin: 50px;
 }
 
@@ -42,14 +42,6 @@ body {
 	top: 10px;
 	font-weight: bold;
 }
-
-
-
-
-
-
-
-
 
 .menu-link button {
 	background-color: #DB9200;
