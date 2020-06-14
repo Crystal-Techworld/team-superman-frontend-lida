@@ -157,7 +157,7 @@
 
 .rooms{
 	width: 300px;
-	margin: 20px auto;
+	margin: 20px auto ;
 	
 }
 
@@ -165,7 +165,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 300px;
+	width: 100%;
 	height: 170px;
 }
 
@@ -199,9 +199,12 @@
 .rooms h6{
 	font-size: 12px;
 	font-family: helvetica;
-	color: black;
 	float: right;
 	margin-top: 10px;
+	background-color: #DB9200;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 .rooms p{
@@ -341,8 +344,6 @@
 }
 
 
-
-
 @media screen and (min-width: 700px)
 {
 	*{
@@ -360,6 +361,7 @@
 	.head .nav .content a #book{
 		width: 110px;
 	}
+		
 }
 
 
@@ -406,11 +408,15 @@
    	display: block;
    }
 
-
+   .available-rooms{
+	float: right;
+	width: 80%;
+	}
    .rooms{
    	float: right;
    	margin-left: 70px;
-   	margin-right: 70px;
+	margin-right: 70px;
+	   
    }
 
    .promo{
